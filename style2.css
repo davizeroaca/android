@@ -1,0 +1,148 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'kkitalic';
+    src: url('media/fonts/Gotica\ Moderna\ KK\ v1.1.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'idroid';
+    src: url('media/fonts/idroid.otf') format('opentype');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1&family=Mrs+Saint+Delafield&display=swap');
+
+body {
+    margin: 0;
+    background-image: linear-gradient(to right, rgb(230, 213, 188), rgb(245, 219, 179));
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+header {
+    background-image: linear-gradient(to bottom, rgb(63, 207, 118), rgb(20, 65, 37));
+    color: aliceblue;
+    font-family: 'Gothic A1', Arial, Helvetica, sans-serif;
+    padding: 25px;
+}
+header > h1 {
+    font-family: kkitalic;
+    margin: 0;
+    font-size: 4em;
+    text-shadow: 1px 1px 1px black;
+    text-align: center;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    letter-spacing: 1px;
+}
+header > p {
+    font-size: 1em;
+    text-align: center;
+    padding-bottom: 10px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.363);
+}
+#ancor > .nave {
+    display: inline-block;
+    padding: 8px 14px;
+    text-decoration: none;
+    color: aliceblue;
+    margin-right: 15px;
+    font-weight: bolder;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+}
+.nave:hover {
+    background-color: rgb(122, 120, 120);
+}
+
+
+main {
+    max-width: 1000px;
+    margin: 0 auto;  
+}
+article {
+    background-color: white;
+    padding: 20px;
+    margin: 0;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.397);
+}
+img {
+    display: block;
+    margin: auto;
+}
+
+
+iframe {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+    box-sizing: border-box;
+    border: 20px solid rgb(20, 65, 37);
+    margin: 0;
+}
+
+
+#art2 {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+#art2 > h4 {
+    background-color: rgb(79, 216, 132);
+    margin-bottom: 0%;
+    padding: 10px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    text-shadow: 1px 1px 1px black;
+    color: white;
+}
+aside {
+    background-color: rgb(172, 252, 202);
+    padding: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+aside > ul {
+    list-style-type: "✔";
+    column-count: 2;
+    column-gap: 30px;
+}
+
+
+footer {
+    background-color: rgb(20, 65, 37);
+    color: white;
+    text-align: center;
+    padding: 5px;
+    margin-top: 20px;
+}
+.spanfooter{
+    font-weight: 900;
+    color: white;
+}
+
+
+
+span, a {
+    color: rgb(45, 134, 79);
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.degrade {
+    background-image: linear-gradient(to right, rgba(63, 207, 118, 0.363), white);
+    color: rgb(32, 102, 59);
+    font-family: 'idroid';
+}
+
+#normal {
+    font-family: 'idroid';
+    font-size: 2em;
+    color: rgb(32, 102, 59);
+
+
+}
+
+p {
+    text-indent: 30px;
+}
