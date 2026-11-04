@@ -146,3 +146,14 @@ span, a {
 p {
     text-indent: 30px;
 }
+.semespaco {
+    text-indent: 0px;
+    text-align: center;
+    margin-top: 4px;
+    margin-bottom: 40px;
+}
+img {
+    border-radius: 10px;
+    background-color: rgb(241, 80, 188);
+    padding: 7px;
+}
