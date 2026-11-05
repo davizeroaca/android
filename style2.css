@@ -6,29 +6,30 @@
 
 body {
     margin: 0;
-    background-image: linear-gradient(to right, rgb(230, 213, 188), rgb(245, 219, 179));
+    background-image: linear-gradient(to right, rgb(85, 0, 22), rgb(78, 10, 25));
     font-family: Arial, Helvetica, sans-serif;
 }
 
 
 header {
-    background-image: linear-gradient(to bottom, rgb(63, 207, 118), rgb(20, 65, 37));
-    color: aliceblue;
+    background-image: linear-gradient(to bottom, rgb(245, 129, 235), rgb(255, 116, 243));
+    color: rgb(46, 233, 62);
     padding: 25px;
+    margin-bottom: 20px;
 }
 header > h1 {
+    font-family: 'Loved by the King';
     margin: 0;
-    font-size: 4em;
+    font-size: 90px;
     text-shadow: 1px 1px 1px black;
     text-align: center;
-    padding-bottom: 10px;
     margin-top: 10px;
 }
 header > p {
-    font-size: 1em;
+    font-size: 19px;
     text-align: center;
     padding-bottom: 10px;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.363);
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.363);
 }
 #ancor > .nave {
     display: inline-block;
@@ -78,29 +79,23 @@ footer {
     padding: 5px;
     margin-top: 20px;
 }
-.spanfooter{
-    font-weight: 900;
-    color: white;
+
+.dav {
+    color: rgb(77, 194, 155);
+}
+.emy{
+    color: rgb(209, 146, 157);
 }
 
-
-
-span, a {
-    color: rgb(45, 134, 79);
-    text-decoration: none;
-    font-weight: 700;
+h3 {
+    color: rgb(180, 156, 18);
+    font-size: 20px;
 }
 
-.degrade {
-    background-image: linear-gradient(to right, rgba(63, 207, 118, 0.363), white);
-    color: rgb(32, 102, 59);
-    font-family: 'idroid';
-}
-
-#normal {
-    font-family: 'idroid';
-    font-size: 2em;
-    color: rgb(32, 102, 59);
+#comeco {
+    font-size: 30px;
+    color: rgb(85, 0, 22);
+    font-family: 'Loved by the King';
 
 
 }
