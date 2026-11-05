@@ -86,28 +86,55 @@ h3 {
 
 }
 
-div {
-    display: contents;
-    margin: auto;
+.lista-namoro {
+    display: block;
+    max-width: 600px;
+    margin: 30px auto;
 }
 
-aside {
-    width: 400px;
-    background-color: pink;
-    padding: 10px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-}
-ul {
-    list-style-type: "✔";
-    column-gap: 30px;
+.lista-namoro aside {
+    width: 100%;
+    padding: 0;
+    background: none;
+    border-radius: 0;
 }
 
-h4 {
+.lista-namoro h4 {
+    margin: 0;
+    padding: 12px;
+    text-align: center;
+    font-size: 1.1rem;
     background-color: palevioletred;
     color: aliceblue;
-    margin-top: -10px;
-    width: 100%;
+    border-radius: 12px 12px 0 0;
+}
+
+.lista-namoro ul {
+    list-style: none;
+    margin: 0;
+    padding: 14px;
+    background-color: pink;
+    border-radius: 0 0 12px 12px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.lista-namoro li {
+    background-color: white;
+    color: rgb(85, 0, 22);
+    font-weight: bold;
+    font-size: 0.95rem;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 8px 10px;
+    border-radius: 999px;
+    overflow-wrap: anywhere;
+}
+
+.lista-namoro li::before {
+    content: "✔ ";
+    color: palevioletred;
 }
 
 p {
@@ -153,5 +180,14 @@ video {
     }
     #normal {
         font-size: 1.5em;
+    }
+      .lista-namoro ul {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 8px;
+        padding: 10px;
+    }
+    .lista-namoro li {
+        font-size: 0.85rem;
+        padding: 8px;
     }
 }
