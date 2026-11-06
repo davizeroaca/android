@@ -134,7 +134,7 @@ h3 {
 
 .lista-namoro li::before {
     content: "✔ ";
-    color: palevioletred;
+    color: goldenrod;
 }
 
 p {
@@ -149,7 +149,7 @@ img {
     width: 50%;
     max-width: 100%;
     height: auto;
-    padding: 7px;
+    padding: 10px;
     display: block;
     margin: auto;
 }

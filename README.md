@@ -11,4 +11,6 @@ curiosidades do Google
 
  adcionei um sistema de video, mas preciso corrijir
 
- versão 1.1.4
+ versão 1.1.8
+
+ i implemented more padding to img and i swapped the color of check of the lists. obs.: I am speaking English to talk about updates of programming.
