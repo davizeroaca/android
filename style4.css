@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+body {
+    background-image: url(media/work/wallpaper001.jpg);
+}
+
+.quadrado {
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 150px;
+    width: 150px;
+    margin: 30px;
+    display: inline-flex;
+}
+#q1 {
+    background-color: aqua;
+}
+#q2 {
+    background-image: linear-gradient(red, rgb(255, 196, 0));
+}
+#q3 {
+    background-image: url(media/work/pattern003.png);
+}

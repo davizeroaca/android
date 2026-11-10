@@ -18,3 +18,7 @@ curiosidades do Google
  Version 1.1.9
 
  i implemented a pag of contacts.
+
+ Version 1.2.0
+
+ I implemented a pag3 on index.
