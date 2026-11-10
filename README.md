@@ -14,3 +14,7 @@ curiosidades do Google
  versão 1.1.8
 
  i implemented more padding to img and i swapped the color of check of the lists. obs.: I am speaking English to talk about updates of programming.
+
+ Version 1.1.9
+
+ i implemented a pag of contacts.
