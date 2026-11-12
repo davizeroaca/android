@@ -22,3 +22,7 @@ curiosidades do Google
  Version 1.2.0
 
  I implemented a pag3 on index.
+
+ version 1.2.1
+
+ i fixed the pag three (index.html), and the "a" of contats, are wrong the link (contados)
