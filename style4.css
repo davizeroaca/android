@@ -2,6 +2,12 @@
 
 body {
     background-image: url(media/work/wallpaper001.jpg);
+    margin: 0;
+}
+
+#marginofbox {
+    display: flex;
+    justify-content: center;
 }
 
 .quadrado {
@@ -9,8 +15,8 @@ body {
     border-radius: 5px;
     height: 150px;
     width: 150px;
-    margin: 30px;
-    display: inline-flex;
+    margin: ;
+    
 }
 #q1 {
     background-color: aqua;
