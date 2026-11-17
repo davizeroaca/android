@@ -26,3 +26,7 @@ curiosidades do Google
  version 1.2.1
 
  i fixed the pag three (index.html), and the "a" of contats, are wrong the link (contados)
+
+ version 1.2.2
+
+ Reimagined pag3 and its style4, and fixed the index error nav.
