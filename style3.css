@@ -5,6 +5,18 @@ body {
     background-color: white;
 }
 
+#volta  img {
+    display: inline-flex;
+    width: 150px;
+    margin: 20px;
+    margin-bottom: 0px;
+}
+header .buttom {
+    display: contents;
+    justify-content: center;
+    margin-left: 100px;
+}
+
 main {
     background-color: white;
 }

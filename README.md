@@ -30,3 +30,7 @@ curiosidades do Google
  version 1.2.2
 
  Reimagined pag3 and its style4, and fixed the index error nav.
+
+ version 1.2.3
+
+ Implemented links on pag of contacts and donwload a png of android.
