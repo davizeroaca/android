@@ -11,10 +11,11 @@ body {
     margin: 20px;
     margin-bottom: 0px;
 }
-header .buttom {
+#botao {
     display: contents;
-    justify-content: center;
-    margin-left: 100px;
+    position: absolute;
+    left: 50%;
+
 }
 
 main {
