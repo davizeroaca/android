@@ -34,3 +34,7 @@ curiosidades do Google
  version 1.2.3
 
  Implemented links on pag of contacts and donwload a png of android.
+
+ version 1.2.4
+
+ I need fix the "blocos" of "página de contatos", because it is bugged.
